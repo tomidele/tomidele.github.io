@@ -32,7 +32,7 @@ p {
     color: #000000;
     font-family: 'Bungee Hairline', sans-serif;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 800;
 }
 footer {
     padding: 20px;
@@ -63,4 +63,16 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+.gifcontainer {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gif {
+    animation: rotate 5s linear infinite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-top: 20px;
 }
