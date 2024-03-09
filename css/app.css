@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&display=swap');
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffe4c4;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #daa97c;
+}
+
+header {
+    color: #050505;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 100px;
+}
+.logo {
+    margin: auto;
+    padding: 30px;
+}
+p {
+    color: #000000;
+    font-family: 'Bungee Hairline', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    flex: 1;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    line-height: 65px;
+    color: #8f1904;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
